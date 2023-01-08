@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="H1">Loading</h1>
+    <div>
+        <p> Go back to the form you made a few days ago.</p>
+        <p>You can use the input and button elements</p>
+        <p>ccess and manipulate the form elements.</p>
+        
+    </div>
+    <form action="">
+        <input id="user-text" type="text">
+        <button onclick="userText(event)" type="submit">submit</button>
+        <p id="empty"></p>
+    </form><br>
+    <div>
+        <button id="Hello">Hello</button>
+        <button id="Goodbye">Goodbye</button>
+    </div>
+    <h1>TO DO LIST</h1>
+    <div id="conteiner">
+        <form onsubmit="toDoList(event)">
+          <label for="mission">mission:</label>
+          <input type="text" id="user-input" name="mission" placeholder="Enter your mission"><br>
+          <button id="mission-btn" type="submit" >add mission</button>
+          <div>
+              <ul id="list"></ul>
+          </div>
+        </form>
+        
+    </div>
+    <script src="/DOM/DOM_practice.js"></script>
+</body>
+</html>
